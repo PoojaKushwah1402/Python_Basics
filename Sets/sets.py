@@ -16,3 +16,5 @@ print(thisset,thisnewset)
 thisset = {"apple", "banana", "cherry"}
 for x in thisset:
   print(x)
+
+  #if set is not changable then how can we add items to it?
