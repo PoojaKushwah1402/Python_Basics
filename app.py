@@ -14,6 +14,9 @@ while i < 6:
 else:
   print("i is no longer less than 6")
 
+#CEIL and FLOOR
+# The math.ceil() method rounds a number upwards to its nearest integer, and the math.floor() method rounds a 
+# number downwards to its nearest integer, and returns the result:
 
 #   Python For Loops
 # A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary,
