@@ -7,3 +7,8 @@ person1 = {
   "age": 36,
   "country": "Norway"
 }
+
+
+# 2 ways to import :
+# import moduleName
+# from moduleNAme import specificMethod

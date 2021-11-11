@@ -10,4 +10,4 @@ print(x) #before the change dict_keys(['brand', 'model', 'year'])
 
 car["color"] = "white"
 
-print(x) #after the change dict_keys(['brand', 'model', 'year', 'color'])
+print(x) #after the change dict_keys(['brand', 'model', 'year', 'color']) 
