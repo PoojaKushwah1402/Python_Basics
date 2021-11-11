@@ -29,3 +29,16 @@ class Solution(object):
                 return [obj[remainder],index]
             
             obj[number] = index
+
+# How enumerate() Works
+# The enumerate() function returns an enumerate object, which is an iterator. As each element is accessed 
+# from this enumerate object, a tuple is returned, containing the index and element at that index: (index, element).
+# Thus, in the above for loop, with each iteration, it is assigning the elements of this returned tuple to the 
+# index and element variables. In other words, the returned tuple is being unpacked inside the for-statement:
+
+# for index, element in enumerate(num_list):
+# # similar to:
+# index, element = (index, element)
+
+name_list = ['Jane', 'John', 'Mike']
+print(list(enumerate(name_list,2))) #[(2, 'Jane'), (3, 'John'), (4, 'Mike')]
